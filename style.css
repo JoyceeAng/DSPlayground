@@ -25,6 +25,7 @@ body {
     padding: 30px;
     align-self: right;
     justify-content: flex-end;
+    margin-top: auto;
   }
   .gamesnsynopsis{
     display: flex;
@@ -34,7 +35,7 @@ body {
     padding:32px;
     justify-content: center;
   }
-  .synopsis, .game1, .game2{
+  .synopsis, .Queues, .Stacks{
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;

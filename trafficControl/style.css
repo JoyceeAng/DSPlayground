@@ -7,7 +7,8 @@ body{
     background: url(trafficBackground.jpg) no-repeat;
     background-size: 800px 500px;
     display: grid;
-    background-position: bottom 125px center;
+    background-position: center;
+    position: relative;
 }
 @keyframes moveCar {
     0% {
@@ -65,26 +66,26 @@ body {
     #car1image{
         transform: rotate(90deg);
         position: absolute;
-        top: 385px; 
-        left: 340px; 
+        top: 410px; 
+        left: 375px; 
         
     }
     #car2image{
         transform: rotate(180deg);
         position: absolute;
-        top: 120px; 
-        left: 385px; 
+        top: 140px; 
+        left: 420px; 
     }
     #car3image{
         position: absolute;
-        top: 410px; 
-        left: 660px; 
+        top: 440px; 
+        left: 695px; 
     }
     #car4image{
         transform: rotate(-90deg);
         position: absolute;
-        top: 145px; 
-        left: 715px; 
+        top: 170px; 
+        left: 752px; 
     }
 }
 
