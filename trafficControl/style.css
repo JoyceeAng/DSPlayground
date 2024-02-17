@@ -9,6 +9,14 @@ body{
     display: grid;
     background-position: bottom 125px center;
 }
+@keyframes moveCar {
+    0% {
+      left: 525px; /* Initial position */
+    }
+    100% {
+      left: 0; /* Final position */
+    }
+  }
 
 body {
     font-family: 'Britannic';
