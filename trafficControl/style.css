@@ -5,10 +5,50 @@
 
 body{
     background: url(trafficBackground.jpg) no-repeat;
-    background-size: 1000px 700px;
+    background-size: 800px 500px;
     display: grid;
-
+    background-position: bottom 125px center;
 }
+
+body {
+    font-family: 'Britannic';
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header{
+    display: flex;
+    font-size:40px;
+    height: 35px;
+    background: rgb(40, 132, 198);
+    color: white;
+    padding: 30px;
+    padding-left: 80px;
+    align-items: center;
+  }
+  .footer{
+    display: flex;
+    font-size:20px;
+    height: 20px;
+    background: rgb(40, 132, 198);
+    color: white;
+    padding: 30px;
+    align-self: right;
+    justify-content: flex-end;
+    position:relative;
+    margin-top:auto;
+    clear:both;
+  }
+  .gamesnsynopsis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:200px;
+    padding:32px;
+    justify-content: center;
+  }
 
 .cars{
     img{
@@ -17,26 +57,26 @@ body{
     #car1image{
         transform: rotate(90deg);
         position: absolute;
-        top: 325px; 
-        left: 91px; 
+        top: 385px; 
+        left: 340px; 
         
     }
     #car2image{
         transform: rotate(180deg);
         position: absolute;
-        top: 30px; 
-        left: 150px; 
+        top: 120px; 
+        left: 385px; 
     }
     #car3image{
         position: absolute;
-        top: 390px; 
-        left: 450px; 
+        top: 410px; 
+        left: 660px; 
     }
     #car4image{
         transform: rotate(-90deg);
         position: absolute;
-        top: 80px; 
-        left: 530px; 
+        top: 145px; 
+        left: 715px; 
     }
 }
 
