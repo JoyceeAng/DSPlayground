@@ -1,9 +1,44 @@
-#gameCanvas{
-    width: 1000px;
-    height: 700px;
-    background: url('./trafficBackground.jpg');
-    background-size: cover;
+*{
+    margin: 0;
+    padding:0;
 }
-.canvas {
-    border: 1px solid black;
-  }
+
+body{
+    background: url(trafficBackground.jpg) no-repeat;
+    background-size: 1000px 700px;
+    display: grid;
+
+}
+
+.cars{
+    img{
+        width: 400px;
+    }
+    #car1image{
+        transform: rotate(90deg);
+        position: absolute;
+        top: 325px; 
+        left: 95px; 
+        
+    }
+    #car2image{
+        transform: rotate(180deg);
+        position: absolute;
+        top: 30px; 
+        left: 150px; 
+    }
+    #car3image{
+        position: absolute;
+        top: 390px; 
+        left: 450px; 
+    }
+    #car4image{
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 80px; 
+        left: 525px; 
+    }
+}
+
+
+
