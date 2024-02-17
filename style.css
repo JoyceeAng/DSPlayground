@@ -1,3 +1,55 @@
-.child1{
-    font-size: 12px;    
-}
+body {
+    font-family: 'Britannic';
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header{
+    display: flex;
+    font-size:40px;
+    height: 35px;
+    background: rgb(40, 132, 198);
+    color: white;
+    padding: 30px;
+    padding-left: 80px;
+    align-items: center;
+  }
+  .footer{
+    display: flex;
+    font-size:20px;
+    height: 20px;
+    background: rgb(40, 132, 198);
+    color: white;
+    padding: 30px;
+    align-self: right;
+    justify-content: flex-end;
+  }
+  .gamesnsynopsis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:200px;
+    padding:32px;
+    justify-content: center;
+  }
+  .synopsis, .game1, .game2{
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    height:200px;
+    width:200px;
+  }
+  .games{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-left:100px;
+
+  }
+  .synopsis{
+    width:632px;
+  }
+  
+
