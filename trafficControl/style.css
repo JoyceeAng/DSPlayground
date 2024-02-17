@@ -1,0 +1,9 @@
+#gameCanvas{
+    width: 1000px;
+    height: 700px;
+    background: url('./trafficBackground.jpg');
+    background-size: cover;
+}
+.canvas {
+    border: 1px solid black;
+  }
