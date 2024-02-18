@@ -113,7 +113,7 @@ body {
   }
 }
 
-.header{
+.header{  
   display: flex;
   font-size:40px;
   height: 35px;
