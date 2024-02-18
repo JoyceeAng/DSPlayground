@@ -120,8 +120,9 @@ body {
   background: rgb(40, 132, 198);
   color: white;
   padding: 30px;
-  padding-left: 80px;
+  padding-left: 15px;
   align-items: center;
+  gap:16px;
 }
 .footer{
   display: flex;
@@ -136,35 +137,13 @@ body {
   margin-top:auto;
   clear:both;
 }
-/* .cars{
-  img{
-      width: 400px;
-  }
-  #car1image{
-      transform: rotate(90deg);
-      position:absolute;
-      top: 52.5%; 
-      left: 23.5%; 
-      
-  }
-  #car2image{
-      transform: rotate(180deg);
-      position:absolute;
-      top: 16.3%; 
-      left: 26.75%; 
-  }
-  #car3image{
-      position:absolute;
-      top: 56.5%; 
-      left: 45.75%; 
-  }
-  #car4image{
-      transform: rotate(-90deg);
-      position:absolute;
-      top: 20.5%; 
-      left: 49.75%; 
-  }
-} */
-
-
-
+button {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
+img {
+  width: 70px;
+  height: 70px;
+}

@@ -1,6 +1,9 @@
 var canvas = document.getElementById("gameCanvas");
 ctx = canvas.getContext("2d");
 
+document.getElementById("homepage").onclick = function() {
+    window.location.href = "../index.html";
+}
 
 var counter = 0;
 class Car {

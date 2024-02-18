@@ -6,22 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class and ID Selectors</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
-    <div class="header">
-       DS PLAYGROUND 
-    </div>
+    <div class="main-content">
+        <div class="container">
+            <h1>DS PLAYGROUND</h1>
+        </div>
+    </div>  
     <div class="gamesnsynopsis">
-        <div class="synopsis">Synopsis</div>
+        <div class="synopsis"><p>Learning Data Structures made easy! </p>
+
+        </div>
+        <p>MODULES</p>
         <div class="games">
-            <div class="Queues">Queues</div>
-            <div class="Stacks">Stacks</div>
+            <button id="Queues">
+                <img src="Queue.jpg" alt="Queue Games">
+            </button>
+            <button id="Stacks">                
+                <img src="Stacks.jpg" alt="Stack GamesS">
+            </button>
         </div>
     </div>
 
     <div class="footer">
         Created by: Suhani, Joyce, Rhea 
     </div>
+    <script>
+        document.getElementById('Queues').onclick = function() {
+            window.location.href = 'trafficControl/index.html';
+        }
+        let btn = document.querySelector('#btn');
+        let sidebar = document.querySelector('.header');
+
+        btn.onclick = function(){
+            sidebar.classList.toggle('active');
+        }
+      
+    </script>
  
   </body>
 </html>
