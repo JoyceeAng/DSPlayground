@@ -6,10 +6,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    gap:20px;
   }
   .header{
     display: flex;
-    font-size:40px;
+    font-size:60px;
     height: 35px;
     background: rgb(40, 132, 198);
     color: white;
@@ -36,6 +37,7 @@ body {
     color:black;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
     gap:20px;
     padding: 32px;
     flex-wrap: nowrap;
@@ -81,4 +83,10 @@ img{
   position: relative;
   width: inherit;
   height: inherit;
+}
+
+h1 {
+  margin-left: 50px;
+  font-size:40px;
+  margin-bottom: 20px;
 }
