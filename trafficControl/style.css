@@ -1,92 +1,79 @@
-*{
-    margin: 0;
-    padding:0;
+#gameCanvas{
+  width: 800px;
+  height: 500px;
+  background: url('./trafficBackground.jpg');
+  background-size: cover;
+  background-position: center;
+  align-self: center;
+  outline: black 10px solid;
+  position: relative;
+  padding: 0;
+  margin: 55px;
+  display: block;
 }
-
-body{
-    background: url(trafficBackground.jpg) no-repeat;
-    background-size: 800px 500px;
-    display: grid;
-    background-position: center;
-    position: relative;
+.canvas {
+  border: 1px solid black;
 }
-@keyframes moveCar {
-    0% {
-      left: 525px; /* Initial position */
-    }
-    100% {
-      left: 0; /* Final position */
-    }
-  }
 
 body {
-    font-family: 'Britannic';
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
+  font-family: 'Britannic';
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-  .header{
-    display: flex;
-    font-size:40px;
-    height: 35px;
-    background: rgb(40, 132, 198);
-    color: white;
-    padding: 30px;
-    padding-left: 80px;
-    align-items: center;
-  }
-  .footer{
-    display: flex;
-    font-size:20px;
-    height: 20px;
-    background: rgb(40, 132, 198);
-    color: white;
-    padding: 30px;
-    align-self: right;
-    justify-content: flex-end;
-    position:relative;
-    margin-top:auto;
-    clear:both;
-  }
-  .gamesnsynopsis{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap:200px;
-    padding:32px;
-    justify-content: center;
-  }
-
+.header{
+  display: flex;
+  font-size:40px;
+  height: 35px;
+  background: rgb(40, 132, 198);
+  color: white;
+  padding: 30px;
+  padding-left: 80px;
+  align-items: center;
+}
+.footer{
+  display: flex;
+  font-size:20px;
+  height: 20px;
+  background: rgb(40, 132, 198);
+  color: white;
+  padding: 30px;
+  align-self: right;
+  justify-content: flex-end;
+  position:relative;
+  margin-top:auto;
+  clear:both;
+}
 .cars{
-    img{
-        width: 400px;
-    }
-    #car1image{
-        transform: rotate(90deg);
-        position: absolute;
-        top: 410px; 
-        left: 375px; 
-        
-    }
-    #car2image{
-        transform: rotate(180deg);
-        position: absolute;
-        top: 140px; 
-        left: 420px; 
-    }
-    #car3image{
-        position: absolute;
-        top: 440px; 
-        left: 695px; 
-    }
-    #car4image{
-        transform: rotate(-90deg);
-        position: absolute;
-        top: 170px; 
-        left: 752px; 
-    }
+  img{
+      width: 400px;
+  }
+  #car1image{
+      transform: rotate(90deg);
+      position: absolute;
+      top: 410px; 
+      left: 375px; 
+      
+  }
+  #car2image{
+      transform: rotate(180deg);
+      position: absolute;
+      top: 125px; 
+      left: 420px; 
+  }
+  #car3image{
+      position: absolute;
+      top: 440px; 
+      left: 695px; 
+  }
+  #car4image{
+      transform: rotate(-90deg);
+      position: absolute;
+      top: 160px; 
+      left: 752px; 
+  }
 }
 
 
