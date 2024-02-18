@@ -52,27 +52,27 @@ body {
   }
   #car1image{
       transform: rotate(90deg);
-      position: absolute;
-      top: 410px; 
-      left: 375px; 
+      position:absolute;
+      top: 52.5%; 
+      left: 23.5%; 
       
   }
   #car2image{
       transform: rotate(180deg);
-      position: absolute;
-      top: 125px; 
-      left: 420px; 
+      position:absolute;
+      top: 16.3%; 
+      left: 26.75%; 
   }
   #car3image{
-      position: absolute;
-      top: 440px; 
-      left: 695px; 
+      position:absolute;
+      top: 56.5%; 
+      left: 45.75%; 
   }
   #car4image{
       transform: rotate(-90deg);
-      position: absolute;
-      top: 160px; 
-      left: 752px; 
+      position:absolute;
+      top: 20.5%; 
+      left: 49.75%; 
   }
 }
 
